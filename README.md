@@ -5,19 +5,93 @@
 ## 📥 Clone repo
 
 ```sh
-git clone https://github.com/anmolmalik01/meidapipe-holistic.git
+git clone https://github.com/anmolmalik01/meidapipe.git
 ```
+
+## 💬 Usage
 <br>
 
-## 💬 Usage/Commands
+📌 simple_holistic
+```sh
+    pipe = mediapipe()
+    pipe.simple_holistic()
+```
+<p align="center">
+<img 
+    src="./images/simple_holistic.gif" 
+    align="center"
+     />
+</p>
+<br>
 
-The holistic class have 2 function:
--> simple_holistic
--> complex_holistic
+📌 complex_holistic
+```sh
+    pipe = mediapipe()
+    pipe.complex_holistic()
+```
+<p align="center">
+<img 
+    src="./images/complex_holistic.gif" 
+    align="center"
+     />
+</p>
+<br>
 
-You can pass show_fps as input to disable fps on screen
+📌 face_mesh
+```sh
+    pipe = mediapipe()
+    pipe.face_mesh()
+```
 
-## Author
+<p align="center">
+<strong>contours=True</strong>
+<br>
+<img 
+    src="./images/face_mesh2.gif" 
+    align="center"
+     />
+</p>
+<br>
+<p align="center">
+<strong>contours=False</strong>
+<br>
+<img 
+    src="./images/face_mesh1.gif" 
+    align="center"
+     />
+</p>
+
+<br>
+
+📌 hand_detector
+```sh
+    pipe = mediapipe()
+    pipe.hand_detector()
+```
+<p align="center">
+<img 
+    src="./images/hand_detection.gif" 
+    align="center"
+     />
+</p>
+<br>
+
+📌 pose
+```sh
+    pipe = mediapipe()
+    pipe.pose()
+```
+<p align="center">
+<img 
+    src="./images/pose.gif" 
+    align="center"
+     />
+</p>
+<br>
+
+📌 To disable fps on the screen, set show_fps as false
+
+## Developer
 
 👤 **Anmol**
 
@@ -26,4 +100,4 @@ You can pass show_fps as input to disable fps on screen
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/anmolmalik01/meidapipe-holistic/issues). 
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/anmolmalik01/mediapipe/issues). 
